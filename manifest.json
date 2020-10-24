@@ -1,0 +1,19 @@
+{
+    "name": "Avaliação UFPI",
+    "version": "1.0",
+    "description": "Responde os formes de avalição UFPI",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://sigaa.ufpi.br/sigaa/avaliacao/introDiscente.jsf"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
