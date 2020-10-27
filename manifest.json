@@ -5,7 +5,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://sigaa.ufpi.br/sigaa/avaliacao/introDiscente.jsf"
+                "https://sigaa.ufpi.br/sigaa/avaliacao/introDiscente.jsf",
+                "https://sigaa.ufpi.br/sigaa/avaliacao/discente.jsf"
             ],
             "css": [
                 "style.css"
