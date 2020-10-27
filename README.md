@@ -1,11 +1,13 @@
 # avalicao-ufpi
 
 ## Para executar: 
-Estando na página de avaliação do SIGAA: clica com o direto -> vai em inspecionar -> depois vai em console -> cola o código do index.js -> aperta enter
+Abra a pasta dentro da opção extenções do Google Chome. Para acessar click em opções -> Mais ferramentas -> Extenções
+
+obs: Você precisa abilitar o modo desenvolvedor, e em seguida abrir a pasta do projeto na opção "Carregar sem compactação".
 
 
 ### Para mudar a nota:
-Onde tem "option[1].selected = true;" é só mudar esse número que está entre os colchetes.
+Onde tem "option[getRandonInt(1, 3)].selected = true;" é só mudar o intervalo dos 2 parâmentros.
 1 representa a nota máxima e 5 a menor nota.
 
 
