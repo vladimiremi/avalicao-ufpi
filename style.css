@@ -7,4 +7,16 @@
 button{
     padding: 0.3rem;
     margin-left: 22rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-left: 0.7rem;
+}
+
+.informacao{
+    margin-left: 20rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: rgb(94, 10, 10);
 }
